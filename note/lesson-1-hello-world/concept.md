@@ -1,6 +1,10 @@
 #Hello world 
 > Google Machine Learning Recipes 1
 
+> 官方中文博客 http://chinagdg.org/2016/03/machine-learning-recipes-for-new-developers/
+
+> 视频地址 http://v.youku.com/v_show/id_XMTUxODA1NTY3Mg==.html
+
 ##Supervised learning
 
 原本我们是教会机器我们的规则，由机器执行规则进行分类，识别。
