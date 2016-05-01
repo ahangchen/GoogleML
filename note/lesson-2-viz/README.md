@@ -75,7 +75,6 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
 然后又会有Graphviz中找不到libgvplugin_pango.so.6的问题，根据[官网Issue的解答](http://www.graphviz.org/content/issue-warning-could-not-load-usrlibgraphvizlibgvpluginrsvgso6)，应该是少了依赖库
 ```
 ldd /home/cwh/anaconda2/pkgs/graphviz-2.38.0-1/lib/graphviz/libgvplugin_pango.so.6
-
 ```
 
 发现libpng16 not found，于是安装libpng16，在[这里](https://sourceforge.net/projects/libpng/?source=directory)下载，然后安装，
