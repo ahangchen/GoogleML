@@ -7,8 +7,11 @@ Google机器学习新手教程学习心得与代码
 
 最简单权威的机器学习新手教程。
 
+有问题可以到[Issue区](https://github.com/ahangchen/GoogleML/issues)讨论
+
 笔记列表
 - Lesson 1 [Hello world](note/lesson-1-hello-world/concept.md)
+- Lesson 2 [Visualizing a Decision Tree](note/lesson-2-viz/README.md)
 
 > 如果觉得我的文章对您有帮助，请随意打赏～
 
