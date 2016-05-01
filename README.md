@@ -6,3 +6,7 @@ Google机器学习新手教程学习心得与代码
 > 视频合集 http://v.youku.com/v_show/id_XMTUxODA1NTY3Mg==.html?f=26979872&from=y1.7-3
 
 最简单权威的机器学习新手教程。
+
+> 如果觉得我的文章对您有帮助，请随意打赏～
+
+<img src="res/wxmoney.jpg" width = "400" height = "400" alt="图片名称" align=center />
