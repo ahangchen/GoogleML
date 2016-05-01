@@ -8,7 +8,7 @@ Google机器学习新手教程学习心得与代码
 最简单权威的机器学习新手教程。
 
 笔记列表
-- Lesson 1 [Hello world](lesson-1-hello-world/concept.md)
+- Lesson 1 [Hello world](note/lesson-1-hello-world/concept.md)
 
 > 如果觉得我的文章对您有帮助，请随意打赏～
 
