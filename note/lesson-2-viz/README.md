@@ -77,54 +77,9 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
 ldd /home/cwh/anaconda2/pkgs/graphviz-2.38.0-1/lib/graphviz/libgvplugin_pango.so.6
 
 ```
-```
-cwh@home:graphviz$ ldd /home/cwh/anaconda2/pkgs/graphviz-2.38.0-1/lib/graphviz/libgvplugin_pango.so.6
-	linux-vdso.so.1 =>  (0x00007fffd25ef000)
-	libgvc.so.6 => /home/cwh/anaconda2/pkgs/graphviz-2.38.0-1/lib/graphviz/../libgvc.so.6 (0x00007f539f5e0000)
-	libltdl.so.7 => /usr/lib/x86_64-linux-gnu/libltdl.so.7 (0x00007f539f3b7000)
-	libxdot.so.4 => /home/cwh/anaconda2/pkgs/graphviz-2.38.0-1/lib/graphviz/../libxdot.so.4 (0x00007f539f1b2000)
-	libcgraph.so.6 => /home/cwh/anaconda2/pkgs/graphviz-2.38.0-1/lib/graphviz/../libcgraph.so.6 (0x00007f539ef9d000)
-	libcdt.so.5 => /home/cwh/anaconda2/pkgs/graphviz-2.38.0-1/lib/graphviz/../libcdt.so.5 (0x00007f539ed98000)
-	libpathplan.so.4 => /home/cwh/anaconda2/pkgs/graphviz-2.38.0-1/lib/graphviz/../libpathplan.so.4 (0x00007f539eb8f000)
-	libpangocairo-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0 (0x00007f539e982000)
-	libcairo.so.2 => /usr/lib/x86_64-linux-gnu/libcairo.so.2 (0x00007f539e677000)
-	libpixman-1.so.0 => /usr/lib/x86_64-linux-gnu/libpixman-1.so.0 (0x00007f539e3ce000)
-	libpng16.so.16 => not found
-	libXrender.so.1 => /usr/lib/x86_64-linux-gnu/libXrender.so.1 (0x00007f539e1c4000)
-	libX11.so.6 => /usr/lib/x86_64-linux-gnu/libX11.so.6 (0x00007f539de8e000)
-	libXext.so.6 => /usr/lib/x86_64-linux-gnu/libXext.so.6 (0x00007f539dc7c000)
-	libpangoft2-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0 (0x00007f539da67000)
-	libharfbuzz.so.0 => /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0 (0x00007f539d811000)
-	libpango-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0 (0x00007f539d5c4000)
-	libgthread-2.0.so.0 => /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0 (0x00007f539d3c2000)
-	libfontconfig.so.1 => /usr/lib/x86_64-linux-gnu/libfontconfig.so.1 (0x00007f539d185000)
-	libxml2.so.2 => /usr/lib/x86_64-linux-gnu/libxml2.so.2 (0x00007f539ce1e000)
-	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f539cc1a000)
-	libz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007f539ca00000)
-	libgobject-2.0.so.0 => /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0 (0x00007f539c7af000)
-	libffi.so.6 => /usr/lib/x86_64-linux-gnu/libffi.so.6 (0x00007f539c5a7000)
-	libglib-2.0.so.0 => /lib/x86_64-linux-gnu/libglib-2.0.so.0 (0x00007f539c29e000)
-	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f539c080000)
-	librt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00007f539be78000)
-	libfreetype.so.6 => /usr/lib/x86_64-linux-gnu/libfreetype.so.6 (0x00007f539bbd4000)
-	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f539b8ce000)
-	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f539b509000)
-	libpng12.so.0 => /lib/x86_64-linux-gnu/libpng12.so.0 (0x00007f539b2e2000)
-	libxcb-shm.so.0 => /usr/lib/x86_64-linux-gnu/libxcb-shm.so.0 (0x00007f539b0df000)
-	libxcb-render.so.0 => /usr/lib/x86_64-linux-gnu/libxcb-render.so.0 (0x00007f539aed6000)
-	libxcb.so.1 => /usr/lib/x86_64-linux-gnu/libxcb.so.1 (0x00007f539acb6000)
-	/lib64/ld-linux-x86-64.so.2 (0x00007f539fa85000)
-	libgraphite2.so.3 => /usr/lib/x86_64-linux-gnu/libgraphite2.so.3 (0x00007f539aa90000)
-	libgmodule-2.0.so.0 => /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0 (0x00007f539a88b000)
-	libthai.so.0 => /usr/lib/x86_64-linux-gnu/libthai.so.0 (0x00007f539a682000)
-	libexpat.so.1 => /lib/x86_64-linux-gnu/libexpat.so.1 (0x00007f539a458000)
-	liblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007f539a235000)
-	libpcre.so.3 => /lib/x86_64-linux-gnu/libpcre.so.3 (0x00007f5399ff7000)
-	libXau.so.6 => /usr/lib/x86_64-linux-gnu/libXau.so.6 (0x00007f5399df2000)
-	libXdmcp.so.6 => /usr/lib/x86_64-linux-gnu/libXdmcp.so.6 (0x00007f5399bec000)
-	libdatrie.so.1 => /usr/lib/x86_64-linux-gnu/libdatrie.so.1 (0x00007f53999e5000)
-```
-于是安装libpng16，在[这里](https://sourceforge.net/projects/libpng/?source=directory)下载，然后安装，
+
+发现libpng16 not found，于是安装libpng16，在[这里](https://sourceforge.net/projects/libpng/?source=directory)下载，然后安装，
+
 ```
 ./configure
 make
