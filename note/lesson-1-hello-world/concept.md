@@ -7,7 +7,7 @@
 
 > Github工程地址 https://github.com/ahangchen/GoogleML
 
-> 欢迎Star
+> 欢迎Star，也欢迎到[Issue区讨论](https://github.com/ahangchen/GoogleML/issues)
 
 ##Supervised learning
 
