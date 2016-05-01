@@ -5,6 +5,10 @@
 
 > 视频地址 http://v.youku.com/v_show/id_XMTUxODA1NTY3Mg==.html
 
+> Github工程地址 https://github.com/ahangchen/GoogleML
+
+> 欢迎Star
+
 ##Supervised learning
 
 原本我们是教会机器我们的规则，由机器执行规则进行分类，识别。
@@ -38,3 +42,7 @@ Output: class (label)
 
 ##代码
 [Hello world](../../src/hello_world.py)：一个简单的分类器训练与预测
+
+> 如果觉得我的文章对您有帮助，请随意打赏～
+
+<img src="../../res/wxmoney.jpg" width = "400" height = "400" alt="图片名称" align=center />
