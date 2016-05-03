@@ -12,6 +12,7 @@ Google机器学习新手教程学习心得与代码
 笔记列表
 - Lesson 1 [Hello world](note/lesson-1-hello-world/concept.md)
 - Lesson 2 [Visualizing a Decision Tree](note/lesson-2-viz/README.md)
+- Lesson 3 [What Makes a Good Feature](note/lesson-3-good-feature/README.md)
 
 > 如果觉得我的文章对您有帮助，请随意打赏～
 

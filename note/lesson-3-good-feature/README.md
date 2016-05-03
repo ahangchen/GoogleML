@@ -1,4 +1,15 @@
 # 什么造就好的Feature
+> Google Machine Learning Recipes 3
+
+> 官方中文博客 http://chinagdg.org/2016/03/machine-learning-recipes-for-new-developers/
+
+> 视频地址 http://v.youku.com/v_show/id_XMTU1MDU5OTY2OA==.html?f=26979872&from=y1.2-3.4.4
+
+> Github工程地址 https://github.com/ahangchen/GoogleML
+
+> 欢迎Star，也欢迎到[Issue区讨论](https://github.com/ahangchen/GoogleML/issues)
+
+
 > Feature越好，分类器也就越好
 
 - 好的feature能有力地说明两个类别的不同
@@ -16,3 +27,11 @@
 - Informative 
 - Independent
 - Simple
+
+
+##代码
+[Good-Feature](../../src/dogs.py)：构造数据集与绘制柱状图
+
+> 如果觉得我的文章对您有帮助，请随意打赏～
+
+<img src="../../res/wxmoney.jpg" width = "400" height = "400" alt="图片名称" align=center />
