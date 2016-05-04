@@ -6,7 +6,7 @@ from sklearn import tree
 from sklearn.externals.six import StringIO
 
 iris = load_iris()
-# metedata tells you the names of the features and labels
+# metadata tells you the names of the features and labels
 print iris.feature_names
 print iris.target_names
 print iris.data[0]
