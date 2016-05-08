@@ -9,6 +9,8 @@ Google机器学习新手教程学习心得与代码
 
 有问题可以到[Issue区](https://github.com/ahangchen/GoogleML/issues)讨论
 
+由于机器学习的教程更新太慢，所以我先去学[深度学习](https://github.com/ahangchen/GDLnotes)的教程了，也可以看看。
+
 笔记列表
 - Lesson 1 [Hello world](note/lesson-1-hello-world/concept.md)
 - Lesson 2 [Visualizing a Decision Tree](note/lesson-2-viz/README.md)
