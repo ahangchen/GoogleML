@@ -15,6 +15,7 @@ Review and reinforce concept
   - Classifier to spam mail
  
   > Spam for new data
+  
   - Train vs Test to Validate 
   - f(x) = y
   > feature: x, label: y, classifier as a function
