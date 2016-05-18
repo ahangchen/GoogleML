@@ -3,9 +3,7 @@
 
 > Google Machine Learning Recipes 3
 
-> 官方中文博客 http://chinagdg.org/2016/03/machine-learning-recipes-for-new-developers/
-
-> 视频地址 http://v.youku.com/v_show/id_XMTUzNDE5Mzg0MA==.html?f=26979872&from=y1.2-3.4.3
+> [官方中文博客](http://chinagdg.org/2016/03/machine-learning-recipes-for-new-developers) - [视频地址](http://v.youku.com/v_show/id_XMTU2Njk0Njc3Ng==.html?f=26979872&from=y1.7-3)
 
 > Github工程地址 https://github.com/ahangchen/GoogleML
 
