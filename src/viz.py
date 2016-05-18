@@ -7,10 +7,10 @@ from sklearn.externals.six import StringIO
 
 iris = load_iris()
 # metadata tells you the names of the features and labels
-print(iris.feature_names)
-print(iris.target_names)
-print(iris.data[0])
-print(iris.target[0])
+print iris.feature_names
+print iris.target_names
+print iris.data[0]
+print iris.target[0]
 for i in range(len(iris.target)):
     print('Example %d: label %s, features %s' % (i, iris.target[i], iris.data[i]))
 test_idx = [0, 50, 100]
@@ -30,8 +30,8 @@ clf = tree.DecisionTreeClassifier()
 clf.fit(train_data, train_target)
 
 # test
-print(test_target)
-print(clf.predict(test_data))
+print test_target
+print clf.predict(test_data)
 
 # visual code
 
