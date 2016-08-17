@@ -1,4 +1,4 @@
-# Tf.Learn 手写文字识别
+# Google机器学习笔记（七）TF.Learn 手写文字识别
 
 > 转载请注明作者：[梦里风林](https://github.com/ahangchen)
 
@@ -20,7 +20,7 @@
 - 你可能会担心，不用Docker的话怎么开那个notebook呢？其实notebook就在主讲人的[Github页](https://github.com/random-forests/tutorials)上
 - 可以用这个Chrome插件:[npviewer](https://chrome.google.com/webstore/detail/open-in-nbviewer/ihlhlehlibooakiicbiakgojckpnlali?hl=zh-CN)直接在浏览器中阅读ipynb格式的文件，而不用在本地启动iPython notebook
 - 我们的教程在这里：[ep7.ipynb](https://github.com/random-forests/tutorials/blob/master/ep7.ipynb)
-- 把代码从ipython notebook中整理出来：[../src/tflearn_mnist.py]
+- 把代码从ipython notebook中整理出来：[tflearn_mnist.py](../src/tflearn_mnist.py)
 
 
 ## 代码分析
@@ -109,17 +109,19 @@ weights = classifier.weights_
 a.imshow(weights.T[i].reshape(28, 28), cmap=plt.cm.seismic)
 ```
 
+![](../res/weight_viz.png)
+
   - 这里展示了8个张图中，每个像素点（也就是feature）的weights，
   - 红色表示正的权重，蓝色表示负的权重
   - 作用越大的像素，它的颜色越深，也就是权重越大
   - 所以权重中红色部分几乎展示了正确的数字
   
 ## Next steps
-- TensorFlow Docker images: https://hub.docker.com/r/tensorflow/tensorflow/
-- TF.Learn Quickstart: https://www.tensorflow.org/versions/r0.9/tutorials/tflearn/index.html
-- MNIST tutorial: https://www.tensorflow.org/tutorials/mnist/beginners/index.html
-- Visualizating MNIST: http://colah.github.io/posts/2014-10-Visualizing-MNIST/
-- Additional notebooks: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tools/docker/notebooks
-- More about linear classifiers: https://www.tensorflow.org/versions/r0.10/tutorials/linear/overview.html#large-scale-linear-models-with-tensorflow
-- Much more about linear classifiers: http://cs231n.github.io/linear-classify/
-- Additional TF.Learn samples: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/skflow
+- [TensorFlow Docker images](https://hub.docker.com/r/tensorflow/tensorflow/)
+- [TF.Learn Quickstart](https://www.tensorflow.org/versions/r0.9/tutorials/tflearn/index.html)
+- [MNIST tutorial](https://www.tensorflow.org/tutorials/mnist/beginners/index.html)
+- [Visualizating MNIST](http://colah.github.io/posts/2014-10-Visualizing-MNIST/)
+- [Additional notebooks](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tools/docker/notebooks)
+- [More about linear classifiers](https://www.tensorflow.org/versions/r0.10/tutorials/linear/overview.html#large-scale-linear-models-with-tensorflow)
+- [Much more about linear classifiers](http://cs231n.github.io/linear-classify/)
+- [Additional TF.Learn samples](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/skflow)

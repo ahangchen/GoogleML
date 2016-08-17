@@ -1,7 +1,7 @@
 # Let’s Write a Pipeline
 > 转载请注明作者：[梦里风林](https://github.com/ahangchen)
 
-> Google Machine Learning Recipes 3
+> Google Machine Learning Recipes 4
 
 > [官方中文博客](http://chinagdg.org/2016/03/machine-learning-recipes-for-new-developers) - [视频地址](http://v.youku.com/v_show/id_XMTU2Njk0Njc3Ng==.html?f=26979872&from=y1.7-3)
 
@@ -9,26 +9,25 @@
 
 > 欢迎Star，也欢迎到[Issue区讨论](https://github.com/ahangchen/GoogleML/issues)
 
-Review and reinforce concept
+复习与强化概念
 
-- Base pipeline for supervised learning
-  - Classifier to spam mail
+- 监督学习基础套路
+  - 例子： 一个用于举报邮件的分类器
  
-  > Spam for new data
+  > 关键在于举报新的邮件
   
-  - Train vs Test to Validate 
+  - Train vs Test：隔离训练集，测试集以验证训练效果 
   - f(x) = y
-  > feature: x, label: y, classifier as a function
+  > feature: x, label: y, classifier其实就是一个feature到label的函数
   - 可以从sklearn中import各种分类器进行训练，各种分类器有类似的接口
 
-  > 不同分类器解决同一个问题
+  > 这些不同分类器都可以解决类似的问题
 
 - 让算法从数据中学习到底是什么
   - 拒绝手工写分类规则代码
-  - Learn a function
-    - Function：A mapping from input to output values
-  - Start from a model, the rules that define the body of function
-  - Adjust parameter with training data
+  - 本质上，是学习feature到label，从输入到输出的函数
+  - 从一个模型开始，用规则来定义函数
+  - 根据训练数据调整函数参数
   - 从我们发现规律的方法中，找到model
   - 比如一条划分两类点的线就是一个分类器的model，调整参数就能得到我们想要的分类器：
   ![](../../res/classify.png)
