@@ -30,14 +30,14 @@
 - feature应当预处理地尽可能与结果直接相关
 - 有好的feature还不够，还要有好的feature之间的好的组合
 
-##总结
+## 总结
 好的feature应该是这样的：
 - Informative 
 - Independent
 - Simple
 
 
-##代码
+## 代码
 [Good-Feature](../../src/dogs.py)：构造数据集与绘制柱状图
 
 > 如果觉得我的文章对您有帮助，请随意打赏～
