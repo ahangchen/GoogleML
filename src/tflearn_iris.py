@@ -1,5 +1,5 @@
 from sklearn import datasets, metrics, cross_validation
-
+# tensorflow version 0.8
 from tensorflow.contrib import skflow
 
 # Load dataset.
