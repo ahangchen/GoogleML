@@ -39,7 +39,7 @@ TensorFlow for Poets
 - 由于官方视频教程中的语法格式使用的是nightly版本tensorflow的格式，因此对代码稍作修改
 - 参考[Github·TensorFlow·Issue](https://github.com/tensorflow/tensorflow/issues/2421)
 - 参考[Github·TensorFlow·Skflow·Example](https://github.com/tensorflow/tensorflow/tree/r0.8/tensorflow/examples/skflow)
-- [TensorFlow处理Iris问题](../../src/tflearn_iris.py)
+- [TensorFlow处理Iris问题](../src/tflearn_iris.py)
 - [TensorFlow直接识别文件夹图片](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/index.html?index=..%2F..%2Findex#4)
   - 耗时大概20分钟
   - 基于Inception训练分类器retrain
