@@ -16,11 +16,8 @@
 有很多分类器
 - Artificial neural network
 - Support Vector Machine
-- Lions
-- Tigers
-- Bears
+- Logistics 
 
-> 为啥有这么多动物……
 
 ### 决策树好处
 - Easy to read and understand
