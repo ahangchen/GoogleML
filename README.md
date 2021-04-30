@@ -20,6 +20,4 @@ Google机器学习新手教程学习心得与代码
 - Lesson 6 [Train an Image Classifier with TensorFlow for Poets](note/lesson-6-tf-img.md)
 - Lesson 7 [tf.learn手写文字识别](note/lesson-7-tflearn-mnist.md)
 
-> 如果觉得我的文章对您有帮助，请随意打赏～
 
-<img src="res/wxmoney.jpg" width = "400" height = "400" alt="图片名称" align=center />
